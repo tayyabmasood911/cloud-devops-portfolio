@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 740" width="1200" height="740" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="108%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.06" />
+    </filter>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#5b21b6" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="740" fill="#ffffff" />
+  <rect x="0" y="0" width="1200" height="740" fill="none" stroke="#e2e8f0" stroke-width="2" />
+
+  <!-- Subdued Grid -->
+  <g opacity="0.25">
+    <path d="M0 60 H1200 M0 120 H1200 M0 180 H1200 M0 240 H1200 M0 300 H1200 M0 360 H1200 M0 420 H1200 M0 480 H1200 M0 540 H1200 M0 600 H1200 M0 660 H1200 M0 720 H1200" stroke="#f1f5f9" stroke-width="1" />
+    <path d="M100 0 V740 M200 0 V740 M300 0 V740 M400 0 V740 M500 0 V740 M600 0 V740 M700 0 V740 M800 0 V740 M900 0 V740 M1000 0 V740 M1100 0 V740" stroke="#f1f5f9" stroke-width="1" />
+  </g>
+
+  <!-- Header -->
+  <rect x="40" y="24" width="1120" height="72" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+  <text x="65" y="56" font-size="20" font-weight="700" fill="#0f172a">Tayyab Masood • Enterprise Cloud &amp; DevOps Engineering Ecosystem</text>
+  <text x="65" y="80" font-size="12" font-weight="500" fill="#64748b">Multi-Cloud IaC • Kubernetes GitOps • Zero-Trust Security • Full-Stack Observability • FinOps • Event-Driven Microservices</text>
+
+  <rect x="990" y="44" width="150" height="32" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.2" />
+  <circle cx="1005" cy="60" r="5" fill="#3b82f6" />
+  <text x="1018" y="64" font-size="11" font-weight="600" fill="#1d4ed8">36+ Repositories</text>
+
+  <!-- 4 PRIMARY PLATFORM PILLARS -->
+
+  <!-- PILLAR 1: Multi-Cloud Infrastructure as Code -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="116" width="265" height="420" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <path d="M40 116 h265 v38 H40 z" fill="#eff6ff" rx="10" />
+    <text x="56" y="141" font-size="13" font-weight="700" fill="#1e40af">1. Multi-Cloud IaC</text>
+  </g>
+  <rect x="55" y="166" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="65" y="186" font-size="11" font-weight="700" fill="#0f172a">AWS Cloud Foundations</text>
+  <text x="65" y="204" font-size="10" fill="#475569">• Multi-Region Transit Gateway</text>
+  <text x="65" y="220" font-size="10" fill="#475569">• Production VPC &amp; EKS Clusters</text>
+  <text x="65" y="234" font-size="9" fill="#2563eb">OpenTofu 1.6+ &amp; Terraform 1.6+</text>
+
+  <rect x="55" y="248" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="65" y="268" font-size="11" font-weight="700" fill="#0f172a">Azure &amp; GCP Enterprise</text>
+  <text x="65" y="286" font-size="10" fill="#475569">• AKS Zero-Trust CNI Overlay</text>
+  <text x="65" y="302" font-size="10" fill="#475569">• GKE Enterprise Datapath V2</text>
+  <text x="65" y="316" font-size="9" fill="#0284c7">Private Link &amp; Workload Identity</text>
+
+  <rect x="55" y="330" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="65" y="350" font-size="11" font-weight="700" fill="#0f172a">Modern Control Planes</text>
+  <text x="65" y="368" font-size="10" fill="#475569">• Pulumi TypeScript ECS Fargate</text>
+  <text x="65" y="384" font-size="10" fill="#475569">• Crossplane AWS Compositions</text>
+  <text x="65" y="398" font-size="9" fill="#7c3aed">Self-Service K8s-Native Claims</text>
+
+  <rect x="55" y="412" width="235" height="110" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="65" y="432" font-size="11" font-weight="700" fill="#0f172a">Data &amp; Storage IaC</text>
+  <text x="65" y="450" font-size="10" fill="#475569">• Aurora Serverless Postgres</text>
+  <text x="65" y="466" font-size="10" fill="#475569">• OpenSearch Cluster Engine</text>
+  <text x="65" y="482" font-size="10" fill="#475569">• S3 Secure Data Lake Lakehouse</text>
+  <text x="65" y="506" font-size="10" font-weight="600" fill="#16a34a">✓ 100% Declarative Architecture</text>
+
+
+  <!-- PILLAR 2: Kubernetes, GitOps & Orchestration -->
+  <g filter="url(#shadow)">
+    <rect x="325" y="116" width="265" height="420" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <path d="M325 116 h265 v38 H325 z" fill="#f5f3ff" rx="10" />
+    <text x="341" y="141" font-size="13" font-weight="700" fill="#5b21b6">2. Kubernetes &amp; GitOps</text>
+  </g>
+  <rect x="340" y="166" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="350" y="186" font-size="11" font-weight="700" fill="#0f172a">GitOps Continuous Delivery</text>
+  <text x="350" y="204" font-size="10" fill="#475569">• ArgoCD Multi-Env GitOps Hub</text>
+  <text x="350" y="220" font-size="10" fill="#475569">• Helm Charts Microservices Suite</text>
+  <text x="350" y="234" font-size="9" fill="#7c3aed">Zero Manual kubectl Deployments</text>
+
+  <rect x="340" y="248" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="350" y="268" font-size="11" font-weight="700" fill="#0f172a">Networking &amp; Service Mesh</text>
+  <text x="350" y="286" font-size="10" fill="#475569">• Cilium eBPF Network Security</text>
+  <text x="350" y="302" font-size="10" fill="#475569">• Istio Service Mesh Traffic Routing</text>
+  <text x="350" y="316" font-size="9" fill="#0284c7">mTLS &amp; Distributed Tracing</text>
+
+  <rect x="340" y="330" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="350" y="350" font-size="11" font-weight="700" fill="#0f172a">Autoscaling &amp; Resilience</text>
+  <text x="350" y="368" font-size="10" fill="#475569">• KEDA Event-Driven Autoscaling</text>
+  <text x="350" y="384" font-size="10" fill="#475569">• Velero K8s Disaster Recovery</text>
+  <text x="350" y="398" font-size="9" fill="#059669">Kafka / SQS Scaling to Zero</text>
+
+  <rect x="340" y="412" width="235" height="110" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="350" y="432" font-size="11" font-weight="700" fill="#0f172a">Governance &amp; Certificates</text>
+  <text x="350" y="450" font-size="10" fill="#475569">• Kyverno Policy Guardrails</text>
+  <text x="350" y="466" font-size="10" fill="#475569">• Cert-Manager Let's Encrypt</text>
+  <text x="350" y="482" font-size="10" fill="#475569">• Microservice Manifest Libraries</text>
+  <text x="350" y="506" font-size="10" font-weight="600" fill="#16a34a">✓ CNCF Production Standard</text>
+
+
+  <!-- PILLAR 3: Zero-Trust Security & DevSecOps -->
+  <g filter="url(#shadow)">
+    <rect x="610" y="116" width="265" height="420" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <path d="M610 116 h265 v38 H610 z" fill="#fef2f2" rx="10" />
+    <text x="626" y="141" font-size="13" font-weight="700" fill="#991b1b">3. Zero-Trust Security</text>
+  </g>
+  <rect x="625" y="166" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="635" y="186" font-size="11" font-weight="700" fill="#0f172a">Secrets &amp; Identity</text>
+  <text x="635" y="204" font-size="10" fill="#475569">• HashiCorp Vault Dynamic Secrets</text>
+  <text x="635" y="220" font-size="10" fill="#475569">• Workload Identity Federation</text>
+  <text x="635" y="234" font-size="9" fill="#dc2626">Zero Static Credentials</text>
+
+  <rect x="625" y="248" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="635" y="268" font-size="11" font-weight="700" fill="#0f172a">Supply Chain Security</text>
+  <text x="635" y="286" font-size="10" fill="#475569">• Cosign SLSA Container Signing</text>
+  <text x="635" y="302" font-size="10" fill="#475569">• Docker Security Hardening</text>
+  <text x="635" y="316" font-size="9" fill="#b91c1c">Cryptographic Provenance</text>
+
+  <rect x="625" y="330" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="635" y="350" font-size="11" font-weight="700" fill="#0f172a">Perimeter Defense</text>
+  <text x="635" y="368" font-size="10" fill="#475569">• AWS WAFv2 Bot Control Guard</text>
+  <text x="635" y="384" font-size="10" fill="#475569">• Ansible Linux OS Hardening</text>
+  <text x="635" y="398" font-size="9" fill="#047857">CIS Benchmark Level 2</text>
+
+  <rect x="625" y="412" width="235" height="110" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="635" y="432" font-size="11" font-weight="700" fill="#0f172a">Defense-in-Depth</text>
+  <text x="635" y="450" font-size="10" fill="#475569">• NGINX High Availability Proxy</text>
+  <text x="635" y="466" font-size="10" fill="#475569">• REST API Rate Limiter Engine</text>
+  <text x="635" y="482" font-size="10" fill="#475569">• Azure Policy (Gatekeeper OPA)</text>
+  <text x="635" y="506" font-size="10" font-weight="600" fill="#16a34a">✓ NIST 800-207 Zero-Trust</text>
+
+
+  <!-- PILLAR 4: Observability, FinOps & Data Systems -->
+  <g filter="url(#shadow)">
+    <rect x="895" y="116" width="265" height="420" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" />
+    <path d="M895 116 h265 v38 H895 z" fill="#ecfdf5" rx="10" />
+    <text x="911" y="141" font-size="13" font-weight="700" fill="#065f46">4. Observability &amp; FinOps</text>
+  </g>
+  <rect x="910" y="166" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="920" y="186" font-size="11" font-weight="700" fill="#0f172a">Telemetry &amp; Distributed Tracing</text>
+  <text x="920" y="204" font-size="10" fill="#475569">• OpenTelemetry Tracing Collector</text>
+  <text x="920" y="220" font-size="10" fill="#475569">• Prometheus &amp; Grafana Stack</text>
+  <text x="920" y="234" font-size="9" fill="#059669">Loki &amp; Promtail Log Hub</text>
+
+  <rect x="910" y="248" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="920" y="268" font-size="11" font-weight="700" fill="#0f172a">Shift-Left FinOps</text>
+  <text x="920" y="286" font-size="10" fill="#475569">• Infracost CI Budget Gate</text>
+  <text x="920" y="302" font-size="10" fill="#475569">• AWS Cost Optimizer Automation</text>
+  <text x="920" y="316" font-size="9" fill="#0284c7">Automated PR Cost Comments</text>
+
+  <rect x="910" y="330" width="235" height="74" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="920" y="350" font-size="11" font-weight="700" fill="#0f172a">Event Streaming &amp; Message Queues</text>
+  <text x="920" y="368" font-size="10" fill="#475569">• Apache Kafka Event Streaming</text>
+  <text x="920" y="384" font-size="10" fill="#475569">• RabbitMQ Dead-Letter Worker</text>
+  <text x="920" y="398" font-size="9" fill="#ea580c">Reliable Asynchronous Pipes</text>
+
+  <rect x="910" y="412" width="235" height="110" rx="6" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" />
+  <text x="920" y="432" font-size="11" font-weight="700" fill="#0f172a">Distributed Caching &amp; AI Vector</text>
+  <text x="920" y="450" font-size="10" fill="#475569">• Redis Caching &amp; Distributed Locks</text>
+  <text x="920" y="466" font-size="10" fill="#475569">• Qdrant Vector Search Engine</text>
+  <text x="920" y="482" font-size="10" fill="#475569">• FastAPI &amp; Go gRPC Boilers</text>
+  <text x="920" y="506" font-size="10" font-weight="600" fill="#16a34a">✓ High-Throughput Performance</text>
+
+
+  <!-- BOTTOM INTEGRATION STRIP: CI/CD & GITHUB PROFILE HUB -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="552" width="1120" height="96" rx="10" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" />
+    <path d="M40 552 h1120 v30 H40 z" fill="#eff6ff" rx="10" />
+    <text x="60" y="572" font-size="12" font-weight="700" fill="#1e40af">GitHub Actions CI/CD Quality Gate &amp; Portfolio Verification</text>
+  </g>
+  <text x="60" y="602" font-size="11" fill="#475569">• Unified Automation: pytest test suites across all 36 repos • 100% Passing test integrity</text>
+  <text x="60" y="620" font-size="11" fill="#475569">• Enterprise Standards: Strict white-theme blueprints • Security disclosure policies • Zero plaintext secrets</text>
+  <text x="60" y="636" font-size="11" font-weight="600" fill="#2563eb">• Public GitHub Profile: github.com/tayyabmasood911 • Cloud Solutions Architect &amp; Platform Engineer</text>
+
+  <!-- Footer Specs -->
+  <rect x="40" y="666" width="1120" height="50" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.2" />
+  <text x="60" y="696" font-size="12" font-weight="700" fill="#0f172a">Architectural Standards:</text>
+  <text x="230" y="696" font-size="12" fill="#475569">AWS Certified Solutions Architect</text>
+  <text x="490" y="696" font-size="12" fill="#475569">• Multi-Cloud: AWS • Azure • GCP</text>
+  <text x="770" y="696" font-size="12" fill="#475569">• Kubernetes CKA/CKS Aligned</text>
+  <text x="1010" y="696" font-size="12" font-weight="600" fill="#16a34a">Production Ready</text>
+</svg>
